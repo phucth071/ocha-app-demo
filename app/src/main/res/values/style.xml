@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:textSize">16sp</item> <!-- Kích thước chữ -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blue_grey</item> <!-- Màu chữ -->
+    </style>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Demo"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.Activity.User.ReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.AdminReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.PlaceOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.AdminReceiptActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.AdminTabActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.UpdateFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.AddFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.Admin.AdminMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.ListFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Activity.User.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
